@@ -1,0 +1,60 @@
+{
+  "name": "conrad-app",
+  "version": "1.0.0",
+  "description": "Conrad, tu mayordomo digital",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli --config webpack.config.js --colors",
+    "dev": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode production"
+  },
+  "keywords": [
+    "ReactJS",
+    "Firebase",
+    "Vercel",
+    "Google",
+    "Cloud",
+    "Redux",
+    "Stripe"
+  ],
+  "author": "Michel Traña <mtraatabladaa94@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/polyfill": "^7.12.1",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.24.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "compression-webpack-plugin": "^4.0.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "react-hot-loader": "^4.12.21",
+    "svg-url-loader": "^6.0.0",
+    "terser-webpack-plugin": "^3.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-pwa-manifest": "^4.2.0",
+    "workbox-webpack-plugin": "^5.1.3"
+  }
+}
